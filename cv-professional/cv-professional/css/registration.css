@@ -1,0 +1,65 @@
+body{
+    background: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.mainBox{
+    width: 100%;
+    height: 100%;
+    background: rgba(14, 13, 13, 0.671);
+}
+.flex-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+}
+.mainBox .card{
+    background: rgba(14, 13, 13, 0.671);
+}
+.mainBox .card-header{
+    background: rgba(0, 0, 0, 0);
+}
+.mainBox h4{
+    color: #ffffff;
+    font-weight: 600;
+}
+.form-control{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+.mainBox .card-body p{
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+.mainBox a{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+@media(max-width: 576px){
+    .mainBox .card{
+        width: 95vw;
+    }
+}
+@media(min-width: 576px){
+    .mainBox .card{
+        width: 450px;
+    }
+}
